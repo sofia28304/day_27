@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Bodoni";
+    src: url(" ../fonts/BodoniModa-Italic-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: "Open";
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+section {
+
+    background-color: grey;
+    margin: 30px;
+    font-size: 3rem;
+}
+
+// Slider styling https://www.w3schools.com/howto/howto_js_rangeslider.asp
+// Code für die drop down auswahl https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select

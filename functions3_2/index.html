@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions 3_2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section>
+        <p>Brüll-O-Meter</p>
+        <div>
+            <div>
+                <input id="slidecontainer" type="range" min="1" max="100" value="50" onchange="changeFont()">
+
+                <select name="fonts" id="fonts" onchange="changeFont()">
+                    <option value="Bodoni">Bodoni Moda</option>
+                    <option value="Open">Open Sans</option>
+                    <option value="Roboto">Roboto</option>
+                    <option value="Yusei">Yusei Magic</option>
+                </select>
+
+                <input type="text" id="inhalt" onchange="changeFont()">
+
+            </div>
+            <p id="output">xx</p>
+        </div>
+    </section>
+</body>
+<script src="./assets/scss/js/main.js"></script>
+
+</html>

@@ -1,0 +1,90 @@
+// Button Lösung gefunden bei der 3. Antwortoption unter https://stackoverflow.com/questions/38320878/circle-button-css
+
+section {
+    margin: 30px;
+    font-size: 3rem;
+
+    div {
+        display: flex;
+
+        button {
+            margin: 10px;
+        }
+
+        .roundbutton1 {
+            display: block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border: 2px solid black;
+            border-radius: 50%;
+            color: #f5f5f5;
+            text-align: center;
+            text-decoration: none;
+            background: linear-gradient(0.15turn, green 50%, purple 50%);
+        }
+
+        .roundbutton1:hover {
+            box-shadow: 0 0 13px gray;
+        }
+
+        .roundbutton2 {
+            display: block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border: 2px solid black;
+            border-radius: 50%;
+            color: #f5f5f5;
+            text-align: center;
+            text-decoration: none;
+            background: linear-gradient(0.15turn, rgb(98, 0, 255) 50%, yellow 50%);
+        }
+
+        .roundbutton2:hover {
+            box-shadow: 0 0 13px gray;
+        }
+
+        .roundbutton3 {
+            display: block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border: 2px solid black;
+            border-radius: 50%;
+            color: #f5f5f5;
+            text-align: center;
+            text-decoration: none;
+            background: linear-gradient(0.15turn, black 50%, orange 50%);
+        }
+
+        .roundbutton3:hover {
+            box-shadow: 0 0 13px gray;
+        }
+
+        .roundbutton4 {
+            display: block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border: 2px solid black;
+            border-radius: 50%;
+            color: #f5f5f5;
+            text-align: center;
+            text-decoration: none;
+            background: linear-gradient(0.15turn, navy 50%, lightblue 50%);
+        }
+
+        .roundbutton4:hover {
+            box-shadow: 0 0 13px gray;
+        }
+
+        #newStyle {
+            background-color: blue;
+
+            p {
+                color: yellow
+            }
+        }
+    }
+}

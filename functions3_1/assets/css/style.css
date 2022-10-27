@@ -1,0 +1,78 @@
+section {
+  margin: 30px;
+  font-size: 3rem;
+}
+section div {
+  display: flex;
+}
+section div button {
+  margin: 10px;
+}
+section div .roundbutton1 {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(0.15turn, green 50%, purple 50%);
+}
+section div .roundbutton1:hover {
+  box-shadow: 0 0 13px gray;
+}
+section div .roundbutton2 {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(0.15turn, rgb(98, 0, 255) 50%, yellow 50%);
+}
+section div .roundbutton2:hover {
+  box-shadow: 0 0 13px gray;
+}
+section div .roundbutton3 {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(0.15turn, black 50%, orange 50%);
+}
+section div .roundbutton3:hover {
+  box-shadow: 0 0 13px gray;
+}
+section div .roundbutton4 {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border: 2px solid black;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(0.15turn, navy 50%, lightblue 50%);
+}
+section div .roundbutton4:hover {
+  box-shadow: 0 0 13px gray;
+}
+section div #newStyle {
+  background-color: blue;
+}
+section div #newStyle p {
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
